@@ -1,6 +1,6 @@
 import pandas as pd
 
-filename = '/home//Universidades_do_Brasil.xlsx'
+filename = '/home/Universidades_do_Brasil.xlsx'
 df = pd.read_excel(filename)
 
 new_universidade = []
