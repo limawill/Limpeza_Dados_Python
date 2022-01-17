@@ -1,6 +1,6 @@
 import pandas as pd
 
-filename = '/home/will/Downloads/Universidades do Brasil.xlsx'
+filename = '/home//Universidades_do_Brasil.xlsx'
 df = pd.read_excel(filename)
 
 new_universidade = []
@@ -38,4 +38,4 @@ for row in df.itertuples():
 
 
 
-dffinal.to_excel('/home/will/Downloads/Universidades de SP EDITADA.xlsx')
+dffinal.to_excel('/home/Universidades_de_SP_EDITADA.xlsx')
